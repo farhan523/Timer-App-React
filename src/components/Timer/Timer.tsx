@@ -46,7 +46,7 @@ const msecLength = msec.toString().length
     }
     return (
         <div className="timer-container">
-            <h1>Timer App</h1>
+            <h1>Timer Apps</h1>
             <span>{minLength < 2 ? `0${min}` :min} &nbsp;:&nbsp;</span>
             <span>{secLength < 2 ? `0${sec}` :sec} &nbsp;:&nbsp;</span>
             <span>{msecLength < 2 ? `0${msec}` :msec}</span><br />
